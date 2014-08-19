@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List App</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+
+</head>
+
+<body>
+
+<div id="background">
+<header style="
+    display: table;
+    margin:auto;
+">
+<div style="
+    display:table-cell;
+    vertical-align: middle;
+">
+<p style="
+    vertical-align: middle;
+    background: #fff;
+">Shopping Cart</p></div>
+</header>
+</div>
+
+<div id="container">
+
+	<div id="content">
+	<form id="shopping_form">
+
+
+<div id="search_area">
+	<input type="text" class="entry" placeholder="Add an item to the list" maxlength="65">
+	<button type="submit" class="add" value="add to list">add to list</button>
+</div>
+
+
+	<ul id="items1">
+		<li class="items">
+			<div class="removeListItems">
+			<div class="unchecked"></div>
+			<span class="text">Remember to ask the family if they need something from the store!</span>
+		
+			<button type="button" class="remove .reset-animation">remove</button></div>
+		</li>
+
+	</ul>
+
+	</form>
+	</div> <!-- /content -->
+
+
+<div id="clear">
+	<div class="tab">
+		<button type="button" class="clear">clear</button>
+	</div>
+	<div class="bottom_tab"></div>
+</div>
+
+
+
+
+</div><!--container ends-->
+</body>
+</html>

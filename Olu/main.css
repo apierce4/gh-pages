@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****END OF CSS RESET*****/
+
+
+
+.header {
+	height: 40px;
+}
+.nav h1{
+	font-size: 42px;
+	color: #648880;
+
+}
+
+/** Formatting for Main**/
+
+.main {
+	float: left;
+	background-image: url("http://www.advancedwellnessrichmond.com/wp-content/uploads/2013/03/MP900401950.jpg");
+	min-height: 400px;
+	min-width: 1200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center left;
+	
+	
+}
+.format p{
+	font-size: 40px;
+	font-family: Open Sans;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 160px;
+}
+
+.forminput input{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 30px;
+	color: #B27CB2;
+	border-radius: 5px;
+	font-size: 18px;
+}
+/** End of Formatting for Main**/
+
+/**Formating for Side Column**/
+
+.side{
+  	background: #466368;
+  	background: radial-gradient(#648880, #293f50);
+  	height: 400px;
+ 	width: 383px;
+ 	float: right;
+ 	
+	
+}
+
+.side h1{
+	font-family: Open Sans;
+	color: #FFFFFF;
+	margin-left: 120px;
+	margin-right: 100px;
+	margin-top: 30px;
+	font-size: 22px;
+}
+
+.side p {
+	font-size: 18px;
+	font-family: Open Sans;
+	color: #FFFFFF;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+
+button{
+	margin-left: 140px;
+	margin-top: 30px;
+	font-size: 25px;
+	border-radius: 5px;
+	color: #610B4B;
+}
+
+button:hover{
+	font-weight: bold;
+}
+
+/**End of Formating for Side Column**/
+
+/** Formating for Middle Bar**/
+.midnav {
+	height: 30px;
+	clear: both;
+	background-color: #FFB1FF;
+}
+
+.midnav h1{
+	text-align: center;
+	font-size: 32px;
+	font-family: Arial;
+	color: #FFF;
+}
+
+/** End of  Formating for Middle Bar**/
+
+span{
+	color: #CC2EFA;
+
+}
+
+/**Formating for 1st Row of Pictures**/
+
+.imagesfirst img{
+	height: 240px;
+	width: 220px;
+	margin-top: 20px;
+	margin-right: 35px;
+	border-radius: 5px;
+
+}
+
+.picture1 {
+	margin-left: 180px;
+}
+
+/**End of Formating for 1st Row of Pictures**/
+
+.namesfirst{
+	height: 30px;
+	
+}
+
+.namesfirst p {
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 18px;
+	font-family: Open Sans;
+	color: #FFF;
+	
+}
+
+.label1, 
+.label2,
+.label3,
+.label4,
+.label5{
+	display: inline-block;
+	background-color: #B27CB2;
+	width: 220px;
+	margin-right: 35px;
+	height: 25px;
+
+
+}
+
+.label1{
+	margin-left: 180px;
+	
+}
+
+
+/**Formating for 2nd Row of Pictures**/
+.imagessecond img{
+	height: 240px;
+	width: 220px;
+	margin-right: 35px;
+	border-radius: 5px;
+
+}
+
+.picture6 {
+	margin-left: 180px;
+}
+
+/** End of Formating for 2nd Row of Pictures**/
+
+/** Formating for 2nd Row of names**/
+
+.namessecond{
+	height: 25px;
+	
+}
+
+.namessecond p {
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 16px;
+	font-family: Open Sans;
+	color: #FFF;
+	
+}
+
+.label6{
+	margin-left: 180px;
+	
+}
+.label6,
+.label7,
+.label8,
+.label9,
+.label10 {
+	display: inline-block;
+	background-color: #B27CB2;
+	width: 220px;
+	margin-right: 35px;
+	height: 25px;
+}
+
+
+.namessecond{
+	height: 30px;
+}
+
+.imagesthird img{
+	height: 240px;
+	width: 220px;
+	margin-right: 35px;
+
+}
+
+.picture11 {
+	margin-left: 180px;
+}
+
+.footer{
+	height: 40px;
+}
+
+/** End of  Formating for 2nd Row of names**/
